@@ -1,4 +1,5 @@
 import React from "react";
+import Tooltip from "../components/Tooltip";
 
 function Compétences() {
   return (
@@ -8,8 +9,8 @@ function Compétences() {
         <li>Travail en équipe</li>
         <li>Management</li>
         <li>Documentation</li>
-        <li>Français</li>
-        <li>Anglais</li>
+        <li>Français {Tooltip("Langue native")}</li>
+        <li>Anglais {Tooltip("Parlé, écrit couramment")}</li>
       </ul>
     </div>
   );

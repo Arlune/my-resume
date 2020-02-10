@@ -1,28 +1,39 @@
 /* Grid */
-
 .container {
   display: grid;
   justify-content: center;
-  grid-template-columns: [grid1] 30% [grid2] 30%;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto auto auto auto auto;
   grid-column-gap: 50px;
   font-family: "CenturyGothic", sans-serif;
   color: #1e2858;
   line-height: 1.4em;
+  width: 1100px;
+  margin: auto auto;
+  background: linear-gradient(to left, white, #f5d7d3 0.6%, #fae9e6 30%, white);
 }
 
-.container > div:not(.name):not(.jobs-names) {
-  padding: 20px 0px 0px 20px;
-}
-
-.name,
-.jobs-names {
-  padding: 80px 0px 0px 20px;
+.header {
+  grid-column: 1 / span 2;
 }
 
 .projets {
   grid-column: 1;
-  grid-row: 3 / span 3;
+  grid-row: 4 / span 3;
+}
+
+.container > div:not(.name):not(.jobs-names):not(.valeurs):not(.hobbies) {
+  padding: 30px 0px 0px 20px;
+}
+
+.name,
+.jobs-names {
+  padding: 60px 0px 0px 20px;
+}
+
+.valeurs,
+.hobbies {
+  padding: 20px 0px 40px 20px;
 }
 
 /* Texte */
@@ -76,6 +87,12 @@ h3 {
   line-height: 1.5em;
 }
 
+a {
+  color: #931a1e;
+}
+
+/* Infobulles */
+
 .info {
   width: 15px;
   height: 15px;
@@ -83,7 +100,7 @@ h3 {
 
 .more-info {
   padding: 5px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .more-info:hover {
@@ -93,13 +110,10 @@ h3 {
   border-radius: 2%;
 }
 
-.name,
-.contact,
-.formations,
-.technologies,
-.compétences,
-.valeurs {
-  background-color: #fae9e6;
+.customeTheme {
+  color: #fae9e6 !important;
+  background-color: #1e2858 !important;
+  font-size: 0.9em !important;
 }
 
 /* Fonts */
