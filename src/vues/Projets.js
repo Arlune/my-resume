@@ -2,7 +2,7 @@ import React from "react";
 
 function Projets() {
   return (
-    <div>
+    <div className="projets">
       <h2>projets</h2>
       <ul className="projects-containter">
         <li>
@@ -26,7 +26,7 @@ function Projets() {
           <h5>janvier 2018 - juillet 2019 / Lyon</h5>
           <h6>Lead Environment Artist</h6>
           <p>
-            management d’une équipe de 11 environment artists :
+            Management d’une équipe de 11 environment artists :
             <ul>
               <li>Gestion des contraintes techniques et graphiques</li>
               <li>Suivi et formation de l'équipe</li>
@@ -41,7 +41,7 @@ function Projets() {
 
         <li>
           <h3>
-            Gear.Club Unlimited <em>(Switch)</em> <br />
+            Gear.Club Unlimited <em>(Switch)</em> & <br />
             Gear.Club <em>(IOS / Android)</em>
           </h3>
           <h4>Eden games</h4>

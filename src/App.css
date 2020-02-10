@@ -1,37 +1,120 @@
-.App {
-}
+/* Grid */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  grid-template-columns: [grid1] 30% [grid2] 30%;
+  grid-template-rows: auto auto auto auto;
+  grid-column-gap: 50px;
+  font-family: "CenturyGothic", sans-serif;
+  color: #1e2858;
+  line-height: 1.4em;
 }
 
-.App-link {
-  color: #61dafb;
+.container > div:not(.name):not(.jobs-names) {
+  padding: 20px 0px 0px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name,
+.jobs-names {
+  padding: 80px 0px 0px 20px;
+}
+
+.projets {
+  grid-column: 1;
+  grid-row: 3 / span 3;
+}
+
+/* Texte */
+
+h1,
+h2,
+h5,
+.jobs-names {
+  margin: 0px;
+  font-family: "CaviarDreams", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2 {
+  text-decoration: underline overline dashed;
+  text-decoration-color: #1e2858;
+}
+
+h1 {
+  text-decoration-color: #931a1e;
+}
+
+h3,
+h4,
+h6 {
+  margin: 0px;
+  font-family: "CaviarDreams", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h3,
+.jobs-names {
+  font-family: "CaviarDreams_Bold", sans-serif;
+  font-size: 1.2em;
+}
+
+h2,
+h6 {
+  color: #931a1e;
+}
+
+h5,
+h6 {
+  font-size: 1em;
+}
+
+h3 {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+.info {
+  width: 15px;
+  height: 15px;
+}
+
+.more-info {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.more-info:hover {
+  cursor: pointer;
+  background: #f5d7d3;
+  transition: all 0.7s ease-in-out;
+  border-radius: 2%;
+}
+
+.name,
+.contact,
+.formations,
+.technologies,
+.compétences,
+.valeurs {
+  background-color: #fae9e6;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("./assets/CaviarDreams.TTF");
+}
+
+@font-face {
+  font-family: "CaviarDreams_Bold";
+  src: url("./assets/CaviarDreams_Bold.TTF");
+}
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./assets/CenturyGothic.TTF");
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Valeurs() {
   return (
-    <div>
+    <div className="valeurs">
       <h2>valeurs</h2>
       <ul>
         <li>Respect</li>

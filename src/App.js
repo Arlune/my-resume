@@ -9,18 +9,7 @@ import Hobbies from "./vues/Hobbies";
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>morgane gaillard</h1> <br />
-        <h2>contact</h2>
-        <p>
-          8 quai Jules Courmont, 69002 Lyon <br />
-          arlun3d@gmail.com <br />
-          06 67 44 81 68 <br />
-          artstation.com/arlun
-        </p>
-      </header>
-
+    <div className="container">
       <div className="jobs-names">
         développeuse web <br />
         scrum master <br />
@@ -28,20 +17,42 @@ function App() {
         (web, application, jeu vidéo)
       </div>
 
+      <div className="name">
+        <h1>morgane gaillard</h1>
+      </div>
+
       <div className="about">
         <h2>à propos</h2>
         <p>
-          avec mon expérience de management d’équipe d’artistes dans le Jeu Vidéo, je souhaite approfondir et apporter
-          mes connaissances dans la gestion de projet tout en respectant mes valeurs éthiques et responsables.
+          Après quatre années dans le Jeu Vidéo en tant qu'Artiste 3D puis chef d'équipe, je souhaite m'orienter dans le
+          développement Web agile. Avec mon expérience artistique et de management d'équipe, je veux travailler au sein
+          d'une équipe de développement agile et aider à supprimer les obstacles afin que l'équipe travaille dans les
+          meilleures conditions possibles.
+        </p>
+      </div>
+
+      <div className="contact">
+        <h2>contact</h2>
+        <p>
+          8 quai Jules Courmont, 69002 Lyon <br />
+          <a href="mailto:arlun3d@gmail.com">arlun3d@gmail.com</a> <br />
+          06 67 44 81 68 <br />
+          <a href="https://www.artstation.com/arlun" target="_blank">
+            artstation.com/arlun
+          </a>
+          <br />
+          <a href="https://github.com/Arlune" target="_blank">
+            github.com/Arlune
+          </a>
         </p>
       </div>
 
       {Projets()}
-      {Valeurs()}
       {Formations()}
-      {Compétences()}
       {Technologies()}
+      {Compétences()}
       {Hobbies()}
+      {Valeurs()}
     </div>
   );
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 function Compétences() {
   return (
-    <div>
-      <h2>Compétences</h2>
+    <div className="compétences">
+      <h2>compétences</h2>
       <ul>
         <li>Travail en équipe</li>
         <li>Management</li>

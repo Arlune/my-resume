@@ -2,8 +2,8 @@ import React from "react";
 
 function Technologies() {
   return (
-    <div>
-      <h2>Technologies</h2>
+    <div className="technologies">
+      <h2>technologies</h2>
       <ul>
         <li>CSS / HTML</li>
         <li>React</li>
