@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.aaf6ea28.chunk.css",
+    "main.js": "/my-resume/static/js/main.51a58320.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.51a58320.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.f6aa34f0.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.f6aa34f0.js.map",
+    "static/js/2.79055b32.chunk.js": "/my-resume/static/js/2.79055b32.chunk.js",
+    "static/js/2.79055b32.chunk.js.map": "/my-resume/static/js/2.79055b32.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "precache-manifest.a1340a8d814545f6b36ad64e711b2473.js": "/my-resume/precache-manifest.a1340a8d814545f6b36ad64e711b2473.js",
+    "service-worker.js": "/my-resume/service-worker.js",
+    "static/css/main.aaf6ea28.chunk.css.map": "/my-resume/static/css/main.aaf6ea28.chunk.css.map",
+    "static/js/2.79055b32.chunk.js.LICENSE.txt": "/my-resume/static/js/2.79055b32.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/my-resume/static/media/CenturyGothic.cfce6abb.TTF",
+    "static/media/info.svg": "/my-resume/static/media/info.94cff347.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6aa34f0.js",
+    "static/js/2.79055b32.chunk.js",
+    "static/css/main.aaf6ea28.chunk.css",
+    "static/js/main.51a58320.chunk.js"
+  ]
+}
