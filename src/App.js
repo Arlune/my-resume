@@ -15,7 +15,8 @@ function App() {
           NB: Cliquez sur les différentes expériences ou formations pour en apprendre davantage
         </div>
         <div className="jobs-names">
-          développeuse web <br />
+          développeuse web junior
+          <br />
           scrum master <br />
           assistante chef de projet <br />
           (web, application, jeu vidéo)
