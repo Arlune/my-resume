@@ -23,7 +23,9 @@ function App() {
         </div>
 
         <div className="name">
-          <h1>morgane gaillard</h1>
+          <h1>
+            morgane <br /> gaillard
+          </h1>
         </div>
 
         <div className="about">
