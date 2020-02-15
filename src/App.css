@@ -119,6 +119,45 @@ a {
   font-size: 0.9em !important;
 }
 
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: auto;
+    width: 700px;
+    grid-column-gap: 0px;
+  }
+
+  .header {
+    font-style: italic;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .name,
+  .about,
+  .projets,
+  .formations {
+    grid-column: 1 / span 2;
+  }
+  .name,
+  .jobs-names {
+    grid-row: 2;
+    grid-column: 1;
+    padding: 30px 0px 0px 20px;
+    font-size: 0.8em;
+  }
+  .name {
+    align-self: start;
+  }
+  .jobs-names {
+    align-self: end;
+    line-height: 1.2em;
+  }
+  .contact {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
 /* Fonts */
 
 @font-face {
