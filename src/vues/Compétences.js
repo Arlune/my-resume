@@ -3,7 +3,7 @@ import Tooltip from "../components/Tooltip";
 
 function Compétences() {
   return (
-    <div className="compétences">
+    <div className="competences">
       <h2>compétences</h2>
       <ul>
         <li>Travail en équipe</li>

@@ -22,19 +22,21 @@ function App() {
           (web, application, jeu vidéo)
         </div>
 
-        <div className="name">
-          <h1>
-            morgane <br /> gaillard
-          </h1>
-        </div>
+        <h1 className="name">
+          <div>morgane</div>
+          <div>gaillard</div>
+        </h1>
 
         <div className="about">
           <h2>à propos</h2>
           <p>
             Après quatre années dans le Jeu Vidéo en tant qu'Artiste 3D puis chef d'équipe, je souhaite m'orienter dans
-            le développement Web agile. Avec mon expérience artistique et de management d'équipe, je veux travailler au
-            sein d'une équipe de développement agile et aider à supprimer les obstacles afin que l'équipe travaille dans
-            les meilleures conditions possibles.
+            le développement Web agile.{" "}
+            <span className="mobil-hide">
+              Avec mon expérience artistique et de management d'équipe, je veux travailler au sein d'une équipe de
+              développement agile et aider à supprimer les obstacles afin que l'équipe travaille dans les meilleures
+              conditions possibles.
+            </span>
           </p>
         </div>
 
