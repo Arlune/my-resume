@@ -8,7 +8,7 @@ function Tooltip(message) {
       <a data-tip={message}>
         <img src={info} className="info" alt="info" />
       </a>
-      <ReactTooltip className="customeTheme" place="right" effect="solid" />
+      <ReactTooltip className="customeTheme" place="right" effect="solid" data-event="click" delayHide={1000} />
     </span>
   );
 }
