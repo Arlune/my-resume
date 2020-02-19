@@ -17,7 +17,7 @@ function Formations() {
           <p>
             <h3>Développement Front-End</h3>
             <h5>Développeuse web</h5>
-            <h6>En cours</h6>
+            <h6>Depuis Janvier 2020</h6>
           </p>
           {isDisplayingMore[0] && (
             <div>
