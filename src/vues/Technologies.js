@@ -6,13 +6,12 @@ function Technologies() {
     <div className="technologies">
       <h2>technologies</h2>
       <ul>
+        <li>Notion {Tooltip("Gestion des projets, tâches, deadlines, etc.")}</li>
+        <li>Figma</li>
         <li>CSS / HTML</li>
         <li>React</li>
         <li>Git</li>
-        <li>Jira / TeamGantt</li>
-        <li>Confluence</li>
         <li>Suite Adobe : Ai Id, Ps {Tooltip("Photoshop, Illustrator, InDesign")}</li>
-        <li>Unity</li>
       </ul>
     </div>
   );

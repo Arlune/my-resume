@@ -15,6 +15,25 @@ function Projets() {
       <ul className="projects-containter">
         <li onClick={() => toggleDisplayMore(0)} className="more-info">
           <h3>
+            IOshop Click&Collect <em>(web app)</em>
+          </h3>
+          <h4>IOmentum</h4>
+          <h5>février 2021 - août 2021 / lyon</h5>
+          <h6>Product Manager, Infographiste</h6>
+          <p>
+            Création d’un site web et d'un outil côté commerçant permettant le Click&Collect <br />
+            Méthodologie : Agile Scrum <br />
+            Technologies : React / NodeJs
+          </p>
+          {isDisplayingMore[0] && (
+            <div>
+              En coopération avec un commerçant, nous avons créé un site web marchand ainsi qu'un outil de Back Office
+              permettant aux commerçants de vendre des produits en Click&Collect
+            </div>
+          )}
+        </li>
+        <li onClick={() => toggleDisplayMore(1)} className="more-info">
+          <h3>
             Hygie <em>(web app)</em>
           </h3>
           <h5>février 2019 - juin 2019 / lyon</h5>
@@ -24,7 +43,7 @@ function Projets() {
             Méthodologie : Kanban <br />
             Technologies : Angular / NodeJs
           </p>
-          {isDisplayingMore[0] && (
+          {isDisplayingMore[1] && (
             <div>
               Pendant plusieurs mois, en bénévolat, j'ai contribué à faire avancer un projet d'application
               d'apprentissage médicale. Cette application destinée aux professionnels de santé, leur permettait
@@ -35,7 +54,7 @@ function Projets() {
           )}
         </li>
 
-        <li onClick={() => toggleDisplayMore(1)} className="more-info">
+        <li onClick={() => toggleDisplayMore(2)} className="more-info">
           <h3>
             Gear.Club Unlimited 2 <em>(Switch)</em>
           </h3>
@@ -54,7 +73,7 @@ function Projets() {
               <li>Technologie : C#</li>
             </ul>
           </p>
-          {isDisplayingMore[1] && (
+          {isDisplayingMore[2] && (
             <div>
               Mon post de Lead Environment Artist à débuté au début du projet Gear.Club Unlimited 2. J'ai repris
               l'équipe d'artiste au complet sous ma charge et veillée au bon fonctionnement de celle-ci. J'ai créée,
@@ -64,7 +83,7 @@ function Projets() {
           )}
         </li>
 
-        <li onClick={() => toggleDisplayMore(2)} className="more-info">
+        <li onClick={() => toggleDisplayMore(3)} className="more-info">
           <h3>
             Gear.Club Unlimited <em>(Switch)</em> & <br />
             Gear.Club <em>(IOS / Android)</em>
@@ -80,7 +99,7 @@ function Projets() {
               <li>Gestion, formation et suivi de stagiaires</li>
             </ul>
           </p>
-          {isDisplayingMore[2] && (
+          {isDisplayingMore[3] && (
             <div>
               Après un stage de 6 mois chez Eden games, à la suite de mon école, j'ai été Environment Artist sur les
               projets Gear.Club et Gear.Club Unlimited. J'ai principalement créé, texturé et integré des assets

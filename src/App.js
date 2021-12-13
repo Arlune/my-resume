@@ -15,11 +15,10 @@ function App() {
           NB: Cliquez sur les différentes expériences ou formations pour en apprendre davantage
         </div>
         <div className="jobs-names">
-          développeuse web junior
+          Infographiste
           <br />
-          scrum master <br />
-          assistante chef de projet <br />
-          (web, application, jeu vidéo)
+          Product Manager, Product Owner <br />
+          <i>(web, application, jeu vidéo)</i>
         </div>
 
         <h1 className="name">
@@ -30,12 +29,15 @@ function App() {
         <div className="about">
           <h2>à propos</h2>
           <p>
-            Après quatre années dans le Jeu Vidéo en tant qu'Artiste 3D puis chef d'équipe, je souhaite m'orienter dans
-            le développement Web agile.{" "}
+            Après quatre années dans le Jeu Vidéo en tant qu'Artiste 3D. Je suis depuis plus d'une année au sein de
+            l'entreprise IOmentum en tant qu'infographiste mais également et surtout en tant que Product Manager.
             <span className="mobil-hide">
-              Avec mon expérience artistique et de management d'équipe, je veux travailler au sein d'une équipe de
+              <br />
+              Avec mon expérience artistique et de management d'équipe, je peux travailler au sein d'une équipe de
               développement agile et aider à supprimer les obstacles afin que l'équipe travaille dans les meilleures
-              conditions possibles.
+              conditions possibles. <br />
+              <br />
+              Autonome, rigoureuse et organisée, j’aime apprendre, avoir des initiatives et proposer de nouvelles idées.
             </span>
           </p>
         </div>
@@ -43,8 +45,9 @@ function App() {
         <div className="contact">
           <h2>contact</h2>
           <p>
-            8 quai Jules Courmont, 69002 Lyon <br />
-            <a href="mailto:arlun3d@gmail.com">arlun3d@gmail.com</a> <br />
+            43 rue Thomas Blanchet, 69008 LYON
+            <br />
+            <a href="mailto:morgane.gaillard@iomentum.com">morgane.gaillard@iomentum.com</a> <br />
             06 67 44 81 68 <br />
             <a href="https://www.artstation.com/arlun" target="_blank">
               artstation.com/arlun
